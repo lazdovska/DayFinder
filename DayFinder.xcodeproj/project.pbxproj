@@ -56,15 +56,39 @@
 		428FD3D826AF1380004586E1 /* DayFinder */ = {
 			isa = PBXGroup;
 			children = (
-				428FD3D926AF1380004586E1 /* AppDelegate.swift */,
-				428FD3DB26AF1380004586E1 /* SceneDelegate.swift */,
-				428FD3DD26AF1380004586E1 /* ViewController.swift */,
-				428FD3DF26AF1380004586E1 /* Main.storyboard */,
+				428FD3ED26AF153A004586E1 /* AppDelegate */,
+				428FD3EE26AF154E004586E1 /* Controller */,
+				428FD3EF26AF155B004586E1 /* View */,
 				428FD3E226AF1382004586E1 /* Assets.xcassets */,
-				428FD3E426AF1382004586E1 /* LaunchScreen.storyboard */,
 				428FD3E726AF1382004586E1 /* Info.plist */,
 			);
 			path = DayFinder;
+			sourceTree = "<group>";
+		};
+		428FD3ED26AF153A004586E1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				428FD3D926AF1380004586E1 /* AppDelegate.swift */,
+				428FD3DB26AF1380004586E1 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		428FD3EE26AF154E004586E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				428FD3DD26AF1380004586E1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		428FD3EF26AF155B004586E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				428FD3DF26AF1380004586E1 /* Main.storyboard */,
+				428FD3E426AF1382004586E1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
