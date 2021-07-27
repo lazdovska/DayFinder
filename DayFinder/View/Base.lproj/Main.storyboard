@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pFB-90-NFC">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,18 +13,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DayFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Day" translatesAutoresizingMaskIntoConstraints="NO" id="GrX-8m-fcb">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Your Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEw-X0-g3K">
-                                <rect key="frame" x="61" y="129" width="291" height="50"/>
+                                <rect key="frame" x="61" y="85" width="252" height="50"/>
                                 <color key="backgroundColor" systemColor="separatorColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="3MQ-3b-kmj"/>
+                                    <constraint firstAttribute="height" constant="50" id="3MQ-3b-kmj">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                                    </constraint>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="252" id="dLd-69-5a7">
                                         <variation key="heightClass=regular-widthClass=compact" constant="152"/>
                                     </constraint>
@@ -39,7 +41,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DUU-FT-Zsv">
-                                <rect key="frame" x="21" y="203" width="371" height="118"/>
+                                <rect key="frame" x="21" y="159" width="332" height="118"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DCS-en-u4i">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="118"/>
@@ -48,7 +50,9 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="70" height="34"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="adH-Zg-O8H"/>
-                                                    <constraint firstAttribute="height" constant="34" id="d45-hT-hdW"/>
+                                                    <constraint firstAttribute="height" constant="34" id="d45-hT-hdW">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="68"/>
+                                                    </constraint>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -57,7 +61,9 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97Z-AI-3YP">
                                                 <rect key="frame" x="0.0" y="42" width="70" height="34"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="34" id="1pp-y2-8va"/>
+                                                    <constraint firstAttribute="height" constant="34" id="1pp-y2-8va">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="68"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="exH-PX-wr5"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -67,7 +73,9 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3Y-ty-AgY">
                                                 <rect key="frame" x="0.0" y="84" width="70" height="34"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="34" id="Gjx-3Y-QaF"/>
+                                                    <constraint firstAttribute="height" constant="34" id="Gjx-3Y-QaF">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="68"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="j9b-K7-pH5"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -77,25 +85,29 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5sh-uR-r2h">
-                                        <rect key="frame" x="78" y="0.0" width="293" height="118"/>
+                                        <rect key="frame" x="78" y="0.0" width="254" height="118"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I8C-9I-dBa">
-                                                <rect key="frame" x="0.0" y="0.0" width="293" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="254" height="34"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="254" id="aUl-lB-A6h">
                                                         <variation key="heightClass=regular-widthClass=compact" constant="154"/>
                                                     </constraint>
-                                                    <constraint firstAttribute="height" constant="34" id="zMJ-rF-40h"/>
+                                                    <constraint firstAttribute="height" constant="34" id="zMJ-rF-40h">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="68"/>
+                                                    </constraint>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="glw-cU-2kY">
-                                                <rect key="frame" x="0.0" y="42" width="293" height="34"/>
+                                                <rect key="frame" x="0.0" y="42" width="254" height="34"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="34" id="FKD-zT-rlo"/>
+                                                    <constraint firstAttribute="height" constant="34" id="FKD-zT-rlo">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="68"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="254" id="GG9-Y4-5Xr">
                                                         <variation key="heightClass=regular-widthClass=compact" constant="154"/>
                                                     </constraint>
@@ -104,10 +116,12 @@
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S7G-uf-Rar">
-                                                <rect key="frame" x="0.0" y="84" width="293" height="34"/>
+                                                <rect key="frame" x="0.0" y="84" width="254" height="34"/>
                                                 <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="34" id="FvN-H6-LxB"/>
+                                                    <constraint firstAttribute="height" constant="34" id="FvN-H6-LxB">
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="68"/>
+                                                    </constraint>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="254" id="cDZ-NM-oIZ">
                                                         <variation key="heightClass=regular-widthClass=compact" constant="154"/>
                                                     </constraint>
@@ -126,11 +140,12 @@
                                 </userDefinedRuntimeAttributes>
                             </stackView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day of the week, inside your finder." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50G-SI-L7F">
-                                <rect key="frame" x="83" y="329" width="247" height="100"/>
+                                <rect key="frame" x="83" y="285" width="208" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.35961401459999998" blue="0.6349999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="T1J-0j-rRp">
                                         <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="100"/>
                                     </constraint>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="208" id="hYa-Dx-sqL">
                                         <variation key="heightClass=regular-widthClass=compact" constant="108"/>
@@ -146,10 +161,12 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQn-UJ-f7F">
-                                <rect key="frame" x="103" y="462" width="208" height="36"/>
+                                <rect key="frame" x="103" y="418" width="169" height="36"/>
                                 <color key="backgroundColor" red="1" green="0.34702748059999999" blue="0.63517349960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="Mhu-GA-KZq"/>
+                                    <constraint firstAttribute="height" constant="36" id="Mhu-GA-KZq">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="50"/>
+                                    </constraint>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="FIND">
@@ -210,7 +227,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pFB-90-NFC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="hrS-C0-ctZ">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
