@@ -86,6 +86,7 @@ class ViewController: UIViewController {
         if segue.identifier == "dayFinder" {
             // Get the new view controller using segue.destination.
             let vc = segue.destination as! InfoViewController
+            #warning("App crashes when calling Info View Controller view.")
             // Pass the selected object to the new view controller.
             vc.infoText = "DayFinder app helps you\n to find weekday for given date!"
             vc.appDescText = "This is my home work project"
