@@ -1,5 +1,5 @@
 //
-//  infoViewController.swift
+//  InfoViewController.swift
 //  DayFinder
 //
 //  Created by kristine.lazdovska on 28/07/2021.

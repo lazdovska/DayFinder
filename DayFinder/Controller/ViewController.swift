@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     
     // MARK: - findWeekdayTapped
     @IBAction func findWeekdayTapped(_ sender: Any) {
-        let calendar = Calendar.current
         
+        let calendar = Calendar.current
         var dateComponents = DateComponents()
         
         guard let day = Int(dayTextField.text!), let month = Int(monthTextField.text!), let year = Int(yearTextField.text!) else {
@@ -86,6 +86,8 @@ class ViewController: UIViewController {
         if segue.identifier == "dayFinder" {
             // Get the new view controller using segue.destination.
             let vc = segue.destination as! InfoViewController
+            #warning("App crashes when calling Info View Controller view.")
+            
             // Pass the selected object to the new view controller.
             vc.infoText = "DayFinder app helps you\n to find weekday for given date!"
             vc.appDescText = "This is my home work project"
