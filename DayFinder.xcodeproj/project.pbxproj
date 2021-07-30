@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		428AF69D26B42C03009B8B32 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428AF69C26B42C03009B8B32 /* InfoViewController.swift */; };
 		428FD3DA26AF1380004586E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FD3D926AF1380004586E1 /* AppDelegate.swift */; };
 		428FD3DC26AF1380004586E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FD3DB26AF1380004586E1 /* SceneDelegate.swift */; };
 		428FD3DE26AF1380004586E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428FD3DD26AF1380004586E1 /* ViewController.swift */; };
@@ -15,11 +16,11 @@
 		428FD3E626AF1382004586E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428FD3E426AF1382004586E1 /* LaunchScreen.storyboard */; };
 		42C50F0F26B3023A000E1124 /* personalityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C50F0E26B3023A000E1124 /* personalityViewController.swift */; };
 		42FB90D026B1BB7F00438DD6 /* AppearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB90CF26B1BB7F00438DD6 /* AppearenceViewController.swift */; };
-		42FB90D226B1BCB500438DD6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB90D126B1BCB500438DD6 /* InfoViewController.swift */; };
 		42FB90D826B1D92300438DD6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FB90D726B1D92300438DD6 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		428AF69C26B42C03009B8B32 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		428FD3D626AF1380004586E1 /* DayFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428FD3D926AF1380004586E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		428FD3DB26AF1380004586E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		428FD3E726AF1382004586E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42C50F0E26B3023A000E1124 /* personalityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalityViewController.swift; sourceTree = "<group>"; };
 		42FB90CF26B1BB7F00438DD6 /* AppearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceViewController.swift; sourceTree = "<group>"; };
-		42FB90D126B1BCB500438DD6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		42FB90D726B1D92300438DD6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 			children = (
 				428FD3DD26AF1380004586E1 /* ViewController.swift */,
 				42FB90CF26B1BB7F00438DD6 /* AppearenceViewController.swift */,
-				42FB90D126B1BCB500438DD6 /* InfoViewController.swift */,
+				428AF69C26B42C03009B8B32 /* InfoViewController.swift */,
 				42C50F0E26B3023A000E1124 /* personalityViewController.swift */,
 			);
 			path = Controller;
@@ -183,8 +183,8 @@
 			files = (
 				42FB90D026B1BB7F00438DD6 /* AppearenceViewController.swift in Sources */,
 				428FD3DE26AF1380004586E1 /* ViewController.swift in Sources */,
-				42FB90D226B1BCB500438DD6 /* InfoViewController.swift in Sources */,
 				42FB90D826B1D92300438DD6 /* Extension.swift in Sources */,
+				428AF69D26B42C03009B8B32 /* InfoViewController.swift in Sources */,
 				428FD3DA26AF1380004586E1 /* AppDelegate.swift in Sources */,
 				42C50F0F26B3023A000E1124 /* personalityViewController.swift in Sources */,
 				428FD3DC26AF1380004586E1 /* SceneDelegate.swift in Sources */,

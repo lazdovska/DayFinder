@@ -349,7 +349,7 @@
         <!--Info View Controller-->
         <scene sceneID="xqq-9b-fJZ">
             <objects>
-                <viewController id="4Wc-Kg-jC9" customClass="InfoViewController" sceneMemberID="viewController">
+                <viewController id="4Wc-Kg-jC9" customClass="InfoViewController" customModule="DayFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aOd-tW-F7q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -359,6 +359,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VL-QU-r0K">
                                         <rect key="frame" x="0.0" y="0.0" width="212" height="63"/>
+                                        <color key="backgroundColor" systemColor="separatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="212" id="C2U-2x-K4z"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="mYZ-fA-jRv"/>
@@ -369,6 +370,7 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ii-fd-ysL">
                                         <rect key="frame" x="0.0" y="100" width="212" height="63"/>
+                                        <color key="backgroundColor" systemColor="separatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="212" id="6q2-oc-Wz9"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="63" id="E52-8k-Wr3"/>
