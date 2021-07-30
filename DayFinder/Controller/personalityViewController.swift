@@ -22,4 +22,3 @@ class personalityViewController: UIViewController {
         }
     }
 }
-#warning("Missing func that looks up if it is Monday or not")

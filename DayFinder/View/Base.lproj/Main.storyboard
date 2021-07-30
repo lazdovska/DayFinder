@@ -253,7 +253,7 @@
                         <barButtonItem key="leftBarButtonItem" title="Item" image="info.circle" catalog="system" style="done" id="URt-5S-M0W">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <segue destination="4Wc-Kg-jC9" kind="push" identifier="dayFinder" id="3tZ-Ik-Py9"/>
+                                <segue destination="4Wc-Kg-jC9" kind="show" identifier="dayFinder" id="3tZ-Ik-Py9"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="moon.circle.fill" catalog="system" style="done" id="qHf-iJ-m5Q">
@@ -354,8 +354,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="O4j-nk-Scl">
-                                <rect key="frame" x="81.666666666666657" y="251.66666666666663" width="212" height="163"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="O4j-nk-Scl">
+                                <rect key="frame" x="101" y="366.66666666666669" width="212" height="163.00000000000006"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VL-QU-r0K">
                                         <rect key="frame" x="0.0" y="0.0" width="212" height="63"/>
@@ -384,6 +384,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O3D-IW-gZg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="O4j-nk-Scl" firstAttribute="centerX" secondItem="aOd-tW-F7q" secondAttribute="centerX" id="NgC-5e-Jmr"/>
+                            <constraint firstItem="O4j-nk-Scl" firstAttribute="centerY" secondItem="aOd-tW-F7q" secondAttribute="centerY" id="uXZ-UT-Z7t"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PAX-AO-u8W"/>
                     <connections>

@@ -10,7 +10,6 @@ import UIKit
 class InfoViewController: UIViewController {
 
             @IBOutlet weak var appInfoLabel: UILabel!
-            
             @IBOutlet weak var appDescLabel: UILabel!
             
             var infoText = ""
